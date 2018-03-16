@@ -12,4 +12,4 @@ Bootstrapped using create-react-app version 1.5.2
 4. Run `npm start` to start the server.
 5. Navigate to `http://localhost:3000`.
 
-P.S. Top Events not showing up? The Cross-origin resource sharing (CORS) must be disabled in order to work. I decided to use this chrome add-on available here: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
+P.S. Top Events not showing up? The Cross-origin resource sharing (CORS) must be enabled in order to work. I decided to use this chrome add-on available here: https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en
