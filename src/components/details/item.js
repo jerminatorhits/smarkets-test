@@ -39,14 +39,3 @@ Details.propTypes = {
   start_datetime: PropTypes.string.isRequired, 
   url: PropTypes.string.isRequired
 }
-
-/*
-
-parent_name={info.parent_name}
-        event_type={info.event_type}
-        description={info.description}
-        start_datetime={info.start_datetime}
-        info={info.info}
-        url={info.url}
-
-*/
