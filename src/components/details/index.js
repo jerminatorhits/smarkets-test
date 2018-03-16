@@ -7,14 +7,13 @@ export default class DetailsContainer extends React.Component {
   renderDetails(details) {
     if (Object.keys(details).length !== 0) {
       const directURL = `https://www.smarkets.com/event/${details.id}${details.full_slug}`;
-      const newDescription = (details.description === null ? "N/A": details.description);
       return (
         <Details
           key={details.id}
           name={details.name}
           parent_name={details.parent_name}
           event_type={details.event_type}
-          description={newDescription}
+          description={details.description === null ? "N/A": details.description}
           start_datetime={details.start_datetime}
           info={details.info}
           url={directURL} />
